@@ -1,0 +1,8 @@
+site_name: CodeLab Docs
+site_description: Documentation for the CodeLab paint.net plugin.
+site_author: Jason Wendt
+repo_url: https://github.com/toehead2001/codelab-docs/
+copyright: CodeLab v4.1
+theme: material
+markdown_extensions:
+    - smarty
