@@ -8,7 +8,8 @@ TODO
 
 As you continue to type while the AutoComplete Box is open, the list of items will filter to only match the characters you've typed.
 
-Note: You can also filter using Initials. ex: "isc" will match **I**nt**S**lider**C**ontrol`
+!!! Tip
+    You can also filter using Initials. ex: "isc" will match **I**nt**S**lider**C**ontrol`
 
 ### Object Filtering
 
@@ -16,22 +17,25 @@ If you only want to show a specific object type, you can use one of these hotkey
 
 TODO: Use a table?
 
-`Alt` + `L` --- Only show Local Variables & Parameters
+++alt+l++ --- Only show Local Variables & Parameters
 
-`Alt` + `O` --- Only show Constants
+++alt+o++ --- Only show Constants
 
-`Alt` + `P` --- Only show Properties
+++alt+p++ --- Only show Properties
 
-`Alt` + `F` --- Only show Fields
+++alt+f++ --- Only show Fields
 
-`Alt` + `M` --- Only show Methods
+++alt+m++ --- Only show Methods
 
-`Alt` + `C` --- Only show Classes
+++alt+c++ --- Only show Classes
 
-`Alt` + `S` --- Only show Structs
+++alt+s++ --- Only show Structs
 
-`Alt` + `E` --- Only show Enums
+++alt+e++ --- Only show Enums
 
-`Alt` + `K` --- Only show Keywords
+++alt+k++ --- Only show Keywords
 
-`Alt` + `T` --- Only show Snippets
+++alt+t++ --- Only show Snippets
+
+!!! Info
+    Only one Object filter can be used at a time.

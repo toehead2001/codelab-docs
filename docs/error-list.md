@@ -8,7 +8,8 @@ Click on the individual errors to jump to the portion of the code that caused th
 
 Due to errors in your code (like mismatched `{` or `}`) the error may be flagged outside of your code. Please check the structure of your script to correct those types of errors.
 
-Note: Errors are also indicated in the editor with red squiggle underlines.
+!!! Note
+    Errors are also indicated in the editor with red squiggle underlines.
 
 ## Context Menu
 

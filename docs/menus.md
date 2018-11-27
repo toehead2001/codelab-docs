@@ -134,7 +134,8 @@ This will toggle the visibility of the errors list.
 
 This toggles the visibility of the debug output.
 
-Note: Having the debug output visible will also put the compiler into Debug mode.
+!!! Note
+    Having the debug output visible will also put the compiler into Debug mode.
 
 ### Line Numbers
 

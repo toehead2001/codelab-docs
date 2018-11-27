@@ -4,94 +4,94 @@ This the master list of all the keyboard shortcuts in CodeLab.
 
 ## Editor
 
-`Ctrl` + `A` --- Select All
+++ctrl+a++ --- Select All
 
-`Ctrl` + `B` --- Build DLL
+++ctrl+b++ --- Build DLL
 
-`Ctrl` + `C` --- Copy Selection
+++ctrl+c++ --- Copy Selection
 
-`Ctrl` + `D` --- Show/Hide Debug Output
+++ctrl+d++ --- Show/Hide Debug Output
 
-`Ctrl` + `E` --- Show/Hide Errors List
+++ctrl+e++ --- Show/Hide Errors List
 
-`Ctrl` + `F` --- Find
+++ctrl+f++ --- Find
 
-`Ctrl` + `G` ---
+++ctrl+g++ ---
 
-`Ctrl` + `H` --- Replace
+++ctrl+h++ --- Replace
 
-`Ctrl` + `I` --- User Interface Designer
+++ctrl+i++ --- User Interface Designer
 
-`Ctrl` + `J` --- Show Autocomplete box
+++ctrl+j++ --- Show Autocomplete box
 
-`Ctrl` + `K` --- Comment Selection
+++ctrl+k++ --- Comment Selection
 
-`Ctrl` + `L` --- Toggle Large Font
+++ctrl+l++ --- Toggle Large Font
 
-`Ctrl` + `M` --- Show/Hide Indicator Map
+++ctrl+m++ --- Show/Hide Indicator Map
 
-`Ctrl` + `N` --- New code document
+++ctrl+n++ --- New code document
 
-`Ctrl` + `O` --- Open code document
+++ctrl+o++ --- Open code document
 
-`Ctrl` + `P` --- Preview Effect
+++ctrl+p++ --- Preview Effect
 
-`Ctrl` + `Q` --- Format Document
+++ctrl+q++ --- Format Document
 
-`Ctrl` + `R` --- ReNumber UI Variables
+++ctrl+r++ --- ReNumber UI Variables
 
-`Ctrl` + `S` --- Save code document
+++ctrl+s++ --- Save code document
 
-`Ctrl` + `T` --- Show/Hide Toolbar
+++ctrl+t++ --- Show/Hide Toolbar
 
-`Ctrl` + `U` --- Uncomment Selection
+++ctrl+u++ --- Uncomment Selection
 
-`Ctrl` + `V` --- Paste
+++ctrl+v++ --- Paste
 
-`Ctrl` + `W` --- Close document tab
+++ctrl+w++ --- Close document tab
 
-`Ctrl` + `X` --- Cut Selection
+++ctrl+x++ --- Cut Selection
 
-`Ctrl` + `Y` --- Redo
+++ctrl+y++ --- Redo
 
-`Ctrl` + `Z` --- Undo
+++ctrl+z++ --- Undo
 
-`Tab` --- Indent
+++tab++ --- Indent
 
-`Shift` + `Tab` --- Unindent
+++shift+tab++ --- Unindent
 
-`Ctrl` + `Tab` --- Switch to tab on the right
+++ctrl+tab++ --- Switch to tab on the right
 
-`Ctrl` + `Shift` + `Tab` --- Switch to tab on the left
+++ctrl+shift+tab++ --- Switch to tab on the left
 
-`F12` --- Go to Definition
+++f12++ --- Go to Definition
 
 ## AutoComplete Box
 
-`Tab` --- Autocomplete (Forced autocomplete; even when there are no appropriate matches)
+++tab++ --- Autocomplete (Forced autocomplete; even when there are no appropriate matches)
 
-`Esc` --- Closes the AutoComplete Box without actually doing any autocompletion.
+++esc++ --- Closes the AutoComplete Box without actually doing any autocompletion.
 
-`Alt` + `L` --- Only show Local Variables & Parameters
+++alt+l++ --- Only show Local Variables & Parameters
 
-`Alt` + `O` --- Only show Constants
+++alt+o++ --- Only show Constants
 
-`Alt` + `P` --- Only show Properties
+++alt+p++ --- Only show Properties
 
-`Alt` + `F` --- Only show Fields
+++alt+f++ --- Only show Fields
 
-`Alt` + `M` --- Only show Methods
+++alt+m++ --- Only show Methods
 
-`Alt` + `C` --- Only show Classes
+++alt+c++ --- Only show Classes
 
-`Alt` + `S` --- Only show Structs
+++alt+s++ --- Only show Structs
 
-`Alt` + `E` --- Only show Enums
+++alt+e++ --- Only show Enums
 
-`Alt` + `K` --- Only show Keywords
+++alt+k++ --- Only show Keywords
 
-`Alt` + `T` --- Only show Snippets
+++alt+t++ --- Only show Snippets
 
 ## Misc
 
-`F1` --- Open the Codelab help site
+++f1++ --- Open the Codelab help site
