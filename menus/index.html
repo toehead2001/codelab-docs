@@ -1,0 +1,1333 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Documentation for the CodeLab paint.net plugin.">
+      
+      
+      
+        <meta name="author" content="Jason Wendt">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.6">
+    
+    
+      
+        <title>Menus - CodeLab Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#menus" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="CodeLab Docs" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                CodeLab Docs
+              </span>
+              <span class="md-header-nav__topic">
+                Menus
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/toehead2001/codelab-docs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="CodeLab Docs" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    CodeLab Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/toehead2001/codelab-docs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../autocomplete-box/" title="Autocomplete Box" class="md-nav__link">
+      Autocomplete Box
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../builder/" title="DLL Builder" class="md-nav__link">
+      DLL Builder
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../debug-output/" title="Debug Output" class="md-nav__link">
+      Debug Output
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../editor/" title="Editor" class="md-nav__link">
+      Editor
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../error-list/" title="Error List" class="md-nav__link">
+      Error List
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../find-and-replace/" title="Find & Replace" class="md-nav__link">
+      Find & Replace
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../keyboard-shortcuts/" title="Keyboard Shortcuts" class="md-nav__link">
+      Keyboard Shortcuts
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../main-window/" title="Main Window" class="md-nav__link">
+      Main Window
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Menus
+      </label>
+    
+    <a href="./" title="Menus" class="md-nav__link md-nav__link--active">
+      Menus
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file" title="File" class="md-nav__link">
+    File
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-ctrl-n" title="New (Ctrl + N)" class="md-nav__link">
+    New (Ctrl + N)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-ctrl-o" title="Open... (Ctrl + O)" class="md-nav__link">
+    Open... (Ctrl + O)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-recent" title="Open Recent" class="md-nav__link">
+    Open Recent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-ctrl-s" title="Save (Ctrl + S)" class="md-nav__link">
+    Save (Ctrl + S)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-as-ctrl-shift-s" title="Save As... (Ctrl + Shift + S)" class="md-nav__link">
+    Save As... (Ctrl + Shift + S)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-dll-ctrl-b" title="Build DLL... (Ctrl + B)" class="md-nav__link">
+    Build DLL... (Ctrl + B)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-interface-designer-ctrl-i" title="User Interface Designer (Ctrl + I)" class="md-nav__link">
+    User Interface Designer (Ctrl + I)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#renumber-ui-variables-ctrl-r" title="Renumber UI Variables (Ctrl + R)" class="md-nav__link">
+    Renumber UI Variables (Ctrl + R)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preview-effect-ctrl-p" title="Preview Effect (Ctrl + P)" class="md-nav__link">
+    Preview Effect (Ctrl + P)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exit" title="Exit" class="md-nav__link">
+    Exit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edit" title="Edit" class="md-nav__link">
+    Edit
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#undo-ctrl-z" title="Undo (Ctrl + Z)" class="md-nav__link">
+    Undo (Ctrl + Z)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#redo-ctrl-y" title="Redo (Ctrl + Y)" class="md-nav__link">
+    Redo (Ctrl + Y)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-all-ctrl-a" title="Select All (Ctrl + A)" class="md-nav__link">
+    Select All (Ctrl + A)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-ctrl-f" title="Find (Ctrl + F)" class="md-nav__link">
+    Find (Ctrl + F)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replace-ctrl-h" title="Replace (Ctrl + H)" class="md-nav__link">
+    Replace (Ctrl + H)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cut-ctrl-x" title="Cut (Ctrl + X)" class="md-nav__link">
+    Cut (Ctrl + X)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-ctrl-c" title="Copy (Ctrl + C)" class="md-nav__link">
+    Copy (Ctrl + C)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paste-ctrl-v" title="Paste (Ctrl + V)" class="md-nav__link">
+    Paste (Ctrl + V)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indent-tab" title="Indent (Tab)" class="md-nav__link">
+    Indent (Tab)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unindent-shift-tab" title="Unindent (Shift + Tab)" class="md-nav__link">
+    Unindent (Shift + Tab)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-selection-ctrl-k" title="Comment Selection (Ctrl + K)" class="md-nav__link">
+    Comment Selection (Ctrl + K)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uncomment-selection-ctrl-u" title="Uncomment Selection (Ctrl + U)" class="md-nav__link">
+    Uncomment Selection (Ctrl + U)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#format-document-ctrl-q" title="Format Document (Ctrl + Q)" class="md-nav__link">
+    Format Document (Ctrl + Q)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view" title="View" class="md-nav__link">
+    View
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#toolbar-ctrl-t" title="Toolbar (Ctrl + T)" class="md-nav__link">
+    Toolbar (Ctrl + T)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#errors-list-ctrl-e" title="Errors List (Ctrl + E)" class="md-nav__link">
+    Errors List (Ctrl + E)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug-output-ctrl-d" title="Debug Output (Ctrl + D)" class="md-nav__link">
+    Debug Output (Ctrl + D)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-numbers" title="Line Numbers" class="md-nav__link">
+    Line Numbers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bookmarks" title="Bookmarks" class="md-nav__link">
+    Bookmarks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-folding" title="Code Folding" class="md-nav__link">
+    Code Folding
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#large-font-ctrl-l" title="Large Font (Ctrl + L)" class="md-nav__link">
+    Large Font (Ctrl + L)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indicator-map-ctrl-m" title="Indicator Map (Ctrl + M)" class="md-nav__link">
+    Indicator Map (Ctrl + M)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#word-wrap" title="Word Wrap" class="md-nav__link">
+    Word Wrap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-whitespace" title="Show Whitespace" class="md-nav__link">
+    Show Whitespace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#font" title="Font" class="md-nav__link">
+    Font
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparency" title="Transparency" class="md-nav__link">
+    Transparency
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theme" title="Theme" class="md-nav__link">
+    Theme
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#help" title="Help" class="md-nav__link">
+    Help
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#help-topics-f1" title="Help Topics (F1)" class="md-nav__link">
+    Help Topics (F1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-for-updates" title="Check for updates" class="md-nav__link">
+    Check for updates
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changes-on-this-version" title="Changes on this version..." class="md-nav__link">
+    Changes on this version...
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#about" title="About..." class="md-nav__link">
+    About...
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../new-doc/" title="New Document" class="md-nav__link">
+      New Document
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../tab-bar/" title="Tab Bar" class="md-nav__link">
+      Tab Bar
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../toolbar/" title="Toolbar" class="md-nav__link">
+      Toolbar
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../ui-designer/" title="User Interface Designer" class="md-nav__link">
+      User Interface Designer
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file" title="File" class="md-nav__link">
+    File
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-ctrl-n" title="New (Ctrl + N)" class="md-nav__link">
+    New (Ctrl + N)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-ctrl-o" title="Open... (Ctrl + O)" class="md-nav__link">
+    Open... (Ctrl + O)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-recent" title="Open Recent" class="md-nav__link">
+    Open Recent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-ctrl-s" title="Save (Ctrl + S)" class="md-nav__link">
+    Save (Ctrl + S)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#save-as-ctrl-shift-s" title="Save As... (Ctrl + Shift + S)" class="md-nav__link">
+    Save As... (Ctrl + Shift + S)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-dll-ctrl-b" title="Build DLL... (Ctrl + B)" class="md-nav__link">
+    Build DLL... (Ctrl + B)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-interface-designer-ctrl-i" title="User Interface Designer (Ctrl + I)" class="md-nav__link">
+    User Interface Designer (Ctrl + I)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#renumber-ui-variables-ctrl-r" title="Renumber UI Variables (Ctrl + R)" class="md-nav__link">
+    Renumber UI Variables (Ctrl + R)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preview-effect-ctrl-p" title="Preview Effect (Ctrl + P)" class="md-nav__link">
+    Preview Effect (Ctrl + P)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exit" title="Exit" class="md-nav__link">
+    Exit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edit" title="Edit" class="md-nav__link">
+    Edit
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#undo-ctrl-z" title="Undo (Ctrl + Z)" class="md-nav__link">
+    Undo (Ctrl + Z)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#redo-ctrl-y" title="Redo (Ctrl + Y)" class="md-nav__link">
+    Redo (Ctrl + Y)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#select-all-ctrl-a" title="Select All (Ctrl + A)" class="md-nav__link">
+    Select All (Ctrl + A)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-ctrl-f" title="Find (Ctrl + F)" class="md-nav__link">
+    Find (Ctrl + F)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#replace-ctrl-h" title="Replace (Ctrl + H)" class="md-nav__link">
+    Replace (Ctrl + H)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cut-ctrl-x" title="Cut (Ctrl + X)" class="md-nav__link">
+    Cut (Ctrl + X)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-ctrl-c" title="Copy (Ctrl + C)" class="md-nav__link">
+    Copy (Ctrl + C)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paste-ctrl-v" title="Paste (Ctrl + V)" class="md-nav__link">
+    Paste (Ctrl + V)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indent-tab" title="Indent (Tab)" class="md-nav__link">
+    Indent (Tab)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unindent-shift-tab" title="Unindent (Shift + Tab)" class="md-nav__link">
+    Unindent (Shift + Tab)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-selection-ctrl-k" title="Comment Selection (Ctrl + K)" class="md-nav__link">
+    Comment Selection (Ctrl + K)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uncomment-selection-ctrl-u" title="Uncomment Selection (Ctrl + U)" class="md-nav__link">
+    Uncomment Selection (Ctrl + U)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#format-document-ctrl-q" title="Format Document (Ctrl + Q)" class="md-nav__link">
+    Format Document (Ctrl + Q)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#view" title="View" class="md-nav__link">
+    View
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#toolbar-ctrl-t" title="Toolbar (Ctrl + T)" class="md-nav__link">
+    Toolbar (Ctrl + T)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#errors-list-ctrl-e" title="Errors List (Ctrl + E)" class="md-nav__link">
+    Errors List (Ctrl + E)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug-output-ctrl-d" title="Debug Output (Ctrl + D)" class="md-nav__link">
+    Debug Output (Ctrl + D)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-numbers" title="Line Numbers" class="md-nav__link">
+    Line Numbers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bookmarks" title="Bookmarks" class="md-nav__link">
+    Bookmarks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-folding" title="Code Folding" class="md-nav__link">
+    Code Folding
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#large-font-ctrl-l" title="Large Font (Ctrl + L)" class="md-nav__link">
+    Large Font (Ctrl + L)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indicator-map-ctrl-m" title="Indicator Map (Ctrl + M)" class="md-nav__link">
+    Indicator Map (Ctrl + M)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#word-wrap" title="Word Wrap" class="md-nav__link">
+    Word Wrap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-whitespace" title="Show Whitespace" class="md-nav__link">
+    Show Whitespace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#font" title="Font" class="md-nav__link">
+    Font
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transparency" title="Transparency" class="md-nav__link">
+    Transparency
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#theme" title="Theme" class="md-nav__link">
+    Theme
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#help" title="Help" class="md-nav__link">
+    Help
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#help-topics-f1" title="Help Topics (F1)" class="md-nav__link">
+    Help Topics (F1)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#check-for-updates" title="Check for updates" class="md-nav__link">
+    Check for updates
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changes-on-this-version" title="Changes on this version..." class="md-nav__link">
+    Changes on this version...
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#about" title="About..." class="md-nav__link">
+    About...
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/toehead2001/codelab-docs/edit/master/docs/menus.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="menus">Menus</h1>
+<p><img alt="Menus" src="../img/menus.png" /></p>
+<p>TODO: Split into separate pages for each menu?</p>
+<h2 id="file">File</h2>
+<p><img alt="File Menu" src="../img/fileMenu.png" /></p>
+<h3 id="new-ctrl-n">New (Ctrl + N)</h3>
+<p>Opens the <a href="../new-doc/">New Document</a> dialog, which allows for to configurable templates.</p>
+<h3 id="open-ctrl-o">Open&hellip; (Ctrl + O)</h3>
+<p>Display a dialog to choose a <code>.cs</code> file to load into CodeLab.</p>
+<h3 id="open-recent">Open Recent</h3>
+<p>This will open a submenu containing the eight most recently opened .cs files.</p>
+<h3 id="save-ctrl-s">Save (Ctrl + S)</h3>
+<p>This will save changes to an opened <code>.cs</code> file.</p>
+<h3 id="save-as-ctrl-shift-s">Save As&hellip; (Ctrl + Shift + S)</h3>
+<p>This will open the standard Windows Save As&hellip; dialog box. When you pick a name and click OK, CodeLab will save your current script to that file. It is important that your filename uses alphanumeric characters only (no spaces or other special symbols) as this name will be used for your effect&rsquo;s internal namespace when building a DLL of your effect.</p>
+<p>Saving a file updates the filename shown in the CodeLab title bar. This is important because when you build a DLL file, this is the name that the DLL file will have.</p>
+<h3 id="build-dll-ctrl-b">Build DLL&hellip; (Ctrl + B)</h3>
+<p>Use this option when you are happy with your effect and want to make it a permanent part of your Paint.NET (or you want to share your effect with your friends). Be sure to save your script file (<code>Ctrl</code> + <code>S</code>) before saving as a DLL.</p>
+<p>See this page for more details on creating DLL files for use with Paint.NET.</p>
+<h3 id="user-interface-designer-ctrl-i">User Interface Designer (Ctrl + I)</h3>
+<p>Use this option before you start editing your Render function to design the user interface controls your effect will have.</p>
+<p>See this page for more details on using CodeLab&rsquo;s UI designer.</p>
+<h3 id="renumber-ui-variables-ctrl-r">Renumber UI Variables (Ctrl + R)</h3>
+<p>If UI variables are not sequential order, this option will automatically renumber them, and all instances in the document.</p>
+<p>See <a href="https://forums.getpaint.net/topic/880-codelab-v41-for-advanced-users-released-october-22-2018/?do=findComment&amp;comment=424755">example</a>.</p>
+<h3 id="preview-effect-ctrl-p">Preview Effect (Ctrl + P)</h3>
+<p>Allows you to run your Effect with a fully functional UI, directly from within CodeLab, without building a dll file and installing it.</p>
+<h3 id="exit">Exit</h3>
+<p>This will close the editor without building a DLL or even applying your effect to the current selection.</p>
+<h2 id="edit">Edit</h2>
+<p><img alt="Edit Menu" src="../img/editMenu.png" /></p>
+<h3 id="undo-ctrl-z">Undo (Ctrl + Z)</h3>
+<p>Steps backwards in the edit history of the document.</p>
+<h3 id="redo-ctrl-y">Redo (Ctrl + Y)</h3>
+<p>Steps forwards in the edit history of the document.</p>
+<h3 id="select-all-ctrl-a">Select All (Ctrl + A)</h3>
+<p>This command selects your entire script within the code window. From there, you can&hellip;</p>
+<h3 id="find-ctrl-f">Find (Ctrl + F)</h3>
+<p>Open the Find &amp; Replace panel.</p>
+<h3 id="replace-ctrl-h">Replace (Ctrl + H)</h3>
+<p>Open the Find &amp; Replace panel in expanded form.</p>
+<hr />
+<h3 id="cut-ctrl-x">Cut (Ctrl + X)</h3>
+<p>This command deletes the currently selected code in the editor window and places a copy of the deleted code onto the clipboard.</p>
+<h3 id="copy-ctrl-c">Copy (Ctrl + C)</h3>
+<p>This command places a copy of the currently selected code in the editor window onto the clipboard. The currently selected code is NOT deleted.</p>
+<h3 id="paste-ctrl-v">Paste (Ctrl + V)</h3>
+<p>This command replaces the current selection with the code from the clipboard.</p>
+<h3 id="indent-tab">Indent (Tab)</h3>
+<p>If you have lines of code selected in the editor window, pressing the tab key will indent those lines by four spaces.</p>
+<p>If only a partial line is selected, after pressing the tab key, the entire line will become selected.</p>
+<h3 id="unindent-shift-tab">Unindent (Shift + Tab)</h3>
+<p>If you have lines of code selected in the editor window, pressing the shift-tab key will unindent those lines by four spaces.</p>
+<p>If only a partial line is selected, after pressing the shift-tab key, the entire line will become selected.</p>
+<h3 id="comment-selection-ctrl-k">Comment Selection (Ctrl + K)</h3>
+<p>Prepends the selected lines with <code>//</code> to transform it into comment. Useful when wanting to temporarily disable part of your code.</p>
+<h3 id="uncomment-selection-ctrl-u">Uncomment Selection (Ctrl + U)</h3>
+<p>Removes any prepended <code>//</code> from the selected lines.</p>
+<h3 id="format-document-ctrl-q">Format Document (Ctrl + Q)</h3>
+<p>Automatically indents code, and trims whitespace from line ends.</p>
+<h2 id="view">View</h2>
+<p><img alt="View Menu" src="../img/viewMenu.png" /></p>
+<h3 id="toolbar-ctrl-t">Toolbar (Ctrl + T)</h3>
+<p>This toggles the visibility of the toolbar.</p>
+<h3 id="errors-list-ctrl-e">Errors List (Ctrl + E)</h3>
+<p>This will toggle the visibility of the errors list.</p>
+<h3 id="debug-output-ctrl-d">Debug Output (Ctrl + D)</h3>
+<p>This toggles the visibility of the debug output.</p>
+<p>Note: Having the debug output visible will also put the compiler into Debug mode.</p>
+<h3 id="line-numbers">Line Numbers</h3>
+<p>This toggles the Line Numbers margin in the editor.</p>
+<h3 id="bookmarks">Bookmarks</h3>
+<p>This toggles the Bookmarks margin in the editor.</p>
+<h3 id="code-folding">Code Folding</h3>
+<p>This toggles the Code Folding margin in the editor.</p>
+<h3 id="large-font-ctrl-l">Large Font (Ctrl + L)</h3>
+<p>If you have trouble seeing the code in the code window because it is too small, large font mode will increase the size of the text in the code editor window to 125% of normal size.</p>
+<p>Select the option again to return the code to normal size.</p>
+<h3 id="indicator-map-ctrl-m">Indicator Map (Ctrl + M)</h3>
+<p>This toggles the Indicator Map in the editor.</p>
+<h3 id="word-wrap">Word Wrap</h3>
+<p>This toggles Word Wrap in the editor.</p>
+<h3 id="show-whitespace">Show Whitespace</h3>
+<p>This toggles the visibility of the whitespace indicators in the editor.</p>
+<h3 id="font">Font</h3>
+<p>These changes the Font used in the editor and the Debug Output.</p>
+<ul>
+<li>Consolas</li>
+<li>New Courier</li>
+<li><a href="https://damieng.com/envy-code-r">Envy Code R</a></li>
+<li><a href="https://sourcefoundry.org/hack/">Hack</a></li>
+<li>Verdana</li>
+</ul>
+<h3 id="transparency">Transparency</h3>
+<p>By default, the CodeLab window is not transparent at all. If you would like to be able to see through the code window to observe the effect your script is having on the current selection, use this option to modify CodeLab&rsquo;s transparency level. You may select 50% (nearly transparent), 25%, 10% (barely transparent), and 0% (not transparent).</p>
+<h3 id="theme">Theme</h3>
+<p>There are three options for theme:</p>
+<ul>
+<li>Auto</li>
+<li>Light</li>
+<li>Dark</li>
+</ul>
+<p>Auto is not an actual theme, but rather will automatically select Light or Dark based on your chosen <a href="https://www.getpaint.net/doc/latest/SettingsDialog.html#2">Color Scheme in paint.net</a>.</p>
+<h2 id="help">Help</h2>
+<p><img alt="Help Menu" src="../img/helpMenu.png" /></p>
+<h3 id="help-topics-f1">Help Topics (F1)</h3>
+<p>This command will open a web browser and take you to the CodeLab Help page.</p>
+<h3 id="check-for-updates">Check for updates</h3>
+<p>This command will open a web browser and take you to the CodeLab page.</p>
+<h3 id="changes-on-this-version">Changes on this version&hellip;</h3>
+<p>Open an online changelog.</p>
+<h3 id="about">About&hellip;</h3>
+<p>This command shows the About box which includes the version number and copyright message for CodeLab.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../main-window/" title="Main Window" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Main Window
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../new-doc/" title="New Document" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                New Document
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            CodeLab v4.1
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.5e60981f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
