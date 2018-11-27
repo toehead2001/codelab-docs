@@ -480,17 +480,17 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/toehead2001/codelab-docs/edit/master/docs/ui-designer.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/toehead2001/codelab-docs/tree/master/docs/ui-designer.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
                 <h1 id="user-interface-designer">User Interface Designer</h1>
 <p>When CodeLab starts, it loads a default script that contains a Render function and a UICode block that defines the type of interface your effect will have. The default UICode block looks like this:</p>
-<pre><code class="csharp">#region UICode
-IntSliderControl Amount1 = 0; // [0,100] Slider 1 Description
-IntSliderControl Amount2 = 0; // [0,100] Slider 2 Description
-IntSliderControl Amount3 = 0; // [0,100] Slider 3 Description
-#endregion
-</code></pre>
+<div class="codehilite"><pre><span></span><span class="cp">#region UICode</span>
+<span class="n">IntSliderControl</span> <span class="n">Amount1</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="c1">// [0,100] Slider 1 Description</span>
+<span class="n">IntSliderControl</span> <span class="n">Amount2</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="c1">// [0,100] Slider 2 Description</span>
+<span class="n">IntSliderControl</span> <span class="n">Amount3</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="c1">// [0,100] Slider 3 Description</span>
+<span class="cp">#endregion</span>
+</pre></div>
 
 <p>The UICode block starts with the <code>#region UICode</code> line, ends with the <code>#endregion</code> line, and contains one line for each control you wish to include in your effect UI. Each of those interior lines defines a variable for use in your render loop and describes to CodeLab how you want the control to look. You may include as many or as few lines as you wish. The default script contains definitions for 3 integer sliders that have a default value of 0 and a range of 0 to 100.</p>
 <h2 id="preview">Preview</h2>

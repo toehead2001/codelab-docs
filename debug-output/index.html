@@ -480,27 +480,36 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/toehead2001/codelab-docs/edit/master/docs/debug-output.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/toehead2001/codelab-docs/tree/master/docs/debug-output.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
                 <h1 id="debug-output">Debug Output</h1>
 <p><img alt="Debug Output pane" src="../img/debugOutput.png" /></p>
 <p>The Debug Output pane displays debug messages from your code. This can be useful for evaluating variable values, among other things.</p>
-<p>Examples:</p>
-<pre><code class="csharp">Debug.WriteLine(&quot;My Debug Message!&quot;);
-</code></pre>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<div class="codehilite"><pre><span></span><span class="n">Debug</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&quot;My Debug Message!&quot;</span><span class="p">);</span>
+</pre></div>
 
-<pre><code class="csharp">Debug.WriteLine(myVariable);
-</code></pre>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<div class="codehilite"><pre><span></span><span class="n">Debug</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">myVariable</span><span class="p">);</span>
+</pre></div>
 
+</div>
 <h2 id="debug-mode">Debug Mode</h2>
 <p>When the Debug Output pane is opened, the compiler is automatically set to <code>Debug</code> mode. (this doesn&rsquo;t affect &lsquo;Build DLL&rsquo; or &lsquo;Preview Effect&rsquo;; they always use <code>Release</code> mode)</p>
 <p>Likewise, when the Debug Output pane is closed, the compiler is automatically set to <code>Release</code> mode.</p>
-<pre><code class="csharp">#if DEBUG
-    // This code only runs when compiling in Debug mode
-    DoSomething();
-#endif
-</code></pre>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<div class="codehilite"><pre><span></span><span class="cp">#if DEBUG</span>
+    <span class="c1">// This code only runs when compiling in Debug mode</span>
+    <span class="n">DoSomething</span><span class="p">();</span>
+<span class="cp">#endif</span>
+</pre></div>
+
+</div>
                 
                   
                 
