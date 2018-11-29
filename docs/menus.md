@@ -32,7 +32,7 @@ Saving a file updates the filename shown in the CodeLab title bar. This is impor
 
 ### Build DLL... (Ctrl + B)
 
-Use this option when you are happy with your effect and want to make it a permanent part of your Paint.NET (or you want to share your effect with your friends). Be sure to save your script file (`Ctrl` + `S`) before saving as a DLL.
+Use this option when you are happy with your effect and want to make it a permanent part of your Paint.NET (or you want to share your effect with your friends). Be sure to save your script file (++ctrl+s++) before saving as a DLL.
 
 See this page for more details on creating DLL files for use with Paint.NET.
 

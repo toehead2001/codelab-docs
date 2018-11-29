@@ -16,7 +16,10 @@ The Debug Output pane displays debug messages from your code. This can be useful
 
 ## Debug Mode
 
-When the Debug Output pane is opened, the compiler is automatically set to `Debug` mode. (this doesn't affect 'Build DLL' or 'Preview Effect'; they always use `Release` mode)
+When the Debug Output pane is opened, the compiler is automatically set to `Debug` mode.
+
+!!! Info
+    This doesn't affect 'Build DLL' or 'Preview Effect'; they always use `Release` mode.
 
 Likewise, when the Debug Output pane is closed, the compiler is automatically set to `Release` mode.
 

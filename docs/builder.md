@@ -14,7 +14,7 @@ TODO
 
 Name, submenu, author, ect.
 
-### Support Settings
+### Support Information
 
 TODO
 
@@ -26,7 +26,7 @@ TODO
 
 TODO
 
-Help content can take 4 forms:
+Help content can be one of these four types:
 
 - None. If no help text is entered, no ? button will be added to your effect.
 
@@ -36,10 +36,26 @@ Help content can take 4 forms:
 
 - Rich Formatted Text. This will be displayed in a modal pop up form with a rich text format control. All RTF features are supported including pictures. All URLs included are automatically clickable and open in a new browser window.
 
+## View Source
+
+TODO
+
+## Generate VS Solution
+
+TODO
+
+## Build
+
+TODO
+
+## Cancel
+
+TODO
+
 ## Supplemental Files
 
 TODO
 
-- EffectNames.png --- `16x16` Effect Icon
-- EffectNames.example.png --- `200x150` image to display in the Plugin Browser
-- EffectNames.rtf --- Help content in the Rich Text File format
+- EffectName.png --- `16x16` Effect Icon
+- EffectName.example.png --- `200x150` image to display in the Plugin Browser
+- EffectName.rtf --- Help content in the Rich Text File format

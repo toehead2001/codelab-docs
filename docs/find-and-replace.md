@@ -10,11 +10,10 @@ The Find & Replace panel allow you to search the code document, and highlight al
 
 To qualify as a match, every character of the string must have the same casing of search string.
 
-Example:
+!!! Example
+    `casing` would not match `cAsInG`.
 
-`casing` would not match `cAsInG`.
-
-`CaSiNg` would match `CaSiNg`.
+    `CaSiNg` would match `CaSiNg`.
 
 ### Whole Word
 

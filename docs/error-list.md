@@ -6,9 +6,9 @@ This pane will display a list of any errors in your C# code.
 
 Click on the individual errors to jump to the portion of the code that caused the error.
 
-Due to errors in your code (like mismatched `{` or `}`) the error may be flagged outside of your code. Please check the structure of your script to correct those types of errors.
+Due to errors in your code (like mismatched braces) the error may be flagged outside of your code. Please check the structure of your script to correct those types of errors.
 
-!!! Note
+!!! Info
     Errors are also indicated in the editor with red squiggle underlines.
 
 ## Context Menu
@@ -21,7 +21,7 @@ Copies the error message (excluding the error number and the line number) to the
 
 ### Read Full Error
 
-Open a dialog box containing the full error for easier reading.
+Opens a dialog box containing the full error for easier reading.
 
 ### Lookup Error Code
 

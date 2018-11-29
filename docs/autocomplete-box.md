@@ -1,6 +1,8 @@
-# Autocomplete Box
+# AutoComplete Box
 
-TODO
+The AutoComplete Box displays Object Types, static & instances members, constructors, keywords, and snippets.
+
+![AutoComplete of ColorBgra members](img/colorBgraMembers.png)
 
 ## Filtering
 
@@ -14,8 +16,6 @@ As you continue to type while the AutoComplete Box is open, the list of items wi
 ### Object Filtering
 
 If you only want to show a specific object type, you can use one of these hotkeys to invoke filtering:
-
-TODO: Use a table?
 
 ++alt+l++ --- Only show Local Variables & Parameters
 

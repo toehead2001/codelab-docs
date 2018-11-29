@@ -16,6 +16,6 @@ If the file has unsaved changes, an asterisk (`*`) is display to the right of th
 
 Tabs may be closed in any of these three ways:
 
-- `Ctrl` + `W`
+- ++ctrl+w++
 - Mouse middle click
 - Click red X

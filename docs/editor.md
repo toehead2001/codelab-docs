@@ -46,11 +46,11 @@ Highlights all usages of the object under the text caret.
 
 This replaces the standard vertical scrollbar. It displays the indicator marks for the entire document.
 
-The Indicator Map can be enabled/disabled in the [View](menus.md#indicator-map) menu, or with `Ctrl` + `M`.
+The Indicator Map can be enabled/disabled in the [View](menus.md#indicator-map) menu, or with ++ctrl+m++.
 
 ## Go To Definition
 
-Pressing the `F12` key goes to the definition of the object under the text caret.
+Pressing the ++f12++ key goes to the definition of the object under the text caret.
 
 If it is a Type defined in the .NET Framework, the associated page on docs.microsoft.com is open.
 

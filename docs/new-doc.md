@@ -14,6 +14,10 @@ TODO
 - Advanced (unsafe pointers) --- 
 - None (GDI+) --- 
 
+## Variables
+
+TODO
+
 ## Pixel Flow for complex effects
 
 TODO
