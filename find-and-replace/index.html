@@ -604,19 +604,27 @@
 <p>To qualify as a match, every character of the string must have the same casing of search string.</p>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
-<p><code>casing</code> would not match <code>cAsInG</code>.</p>
-<p><code>CaSiNg</code> would match <code>CaSiNg</code>.</p>
+<p><code>myWord</code> would match <code>myWord</code>, but not <code>MyWord</code>.</p>
 </div>
 <h3 id="whole-word">Whole Word<a class="headerlink" href="#whole-word" title="Permanent link">&para;</a></h3>
-<p>TODO</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><code>Selection</code> would match <code>selection</code>, but not <code>GetSelection</code>.</p>
+</div>
 <h3 id="regular-expressions">Regular Expressions<a class="headerlink" href="#regular-expressions" title="Permanent link">&para;</a></h3>
-<p>TODO</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><code>Amount\d</code> would match <code>Amount1</code> and <code>Amount2</code>.</p>
+</div>
 <h3 id="interpret-escape-characters">Interpret Escape Characters<a class="headerlink" href="#interpret-escape-characters" title="Permanent link">&para;</a></h3>
-<p>TODO</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><code>\r\n</code> would allow your search to span to the next line.</p>
+</div>
 <h2 id="replace">Replace<a class="headerlink" href="#replace" title="Permanent link">&para;</a></h2>
-<p>TODO</p>
+<p>This is the string you wish to use as a replacement of your search query.</p>
 <h3 id="replace-all">Replace All<a class="headerlink" href="#replace-all" title="Permanent link">&para;</a></h3>
-<p>TODO</p>
+<p>Pressing this button will replace all instances of your search query with your replacement string.</p>
                 
                   
                 
@@ -674,7 +682,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            CodeLab Docs v20181127
+            CodeLab Docs v20190913
           </div>
         
         powered by
