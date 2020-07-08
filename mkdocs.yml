@@ -20,8 +20,7 @@ markdown_extensions:
     - admonition
     - codehilite:
         guess_lang: false
-        noclasses: true
-        pygments_style: vs
+    - pymdownx.superfences
     - pymdownx.keys
     - toc:
         permalink: true
