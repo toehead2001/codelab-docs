@@ -49,8 +49,10 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="blue">
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="blue" data-md-color-accent="blue">
   
+    
+      <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -1044,6 +1046,19 @@
 <h3 id="about">About&hellip;<a class="headerlink" href="#about" title="Permanent link">&para;</a></h3>
 <p>Shows the About box which includes the version number and copyright message for CodeLab.</p>
                 
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 8, 2020</span>
+    
+  </small>
+</div>
+                  
+                
               
               
                 
@@ -1098,7 +1113,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            CodeLab Docs v20200707
+            CodeLab Docs
           </div>
         
         Made with

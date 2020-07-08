@@ -49,8 +49,10 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="blue">
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="blue" data-md-color-accent="blue">
   
+    
+      <script>matchMedia("(prefers-color-scheme: dark)").matches&&document.body.setAttribute("data-md-color-scheme","slate")</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -522,6 +524,19 @@
 <p>Only one Object Filter can be used at a time.</p>
 </div>
                 
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 8, 2020</span>
+    
+  </small>
+</div>
+                  
+                
               
               
                 
@@ -576,7 +591,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            CodeLab Docs v20200707
+            CodeLab Docs
           </div>
         
         Made with
