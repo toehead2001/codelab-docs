@@ -18,10 +18,14 @@ TODO
 
 TODO
 
-## Pixel Flow for complex effects
+## Code Samples
 
 TODO
 
-## Additional Settings
+## Render Options
+
+TODO
+
+## Pixel Flow for complex effects
 
 TODO

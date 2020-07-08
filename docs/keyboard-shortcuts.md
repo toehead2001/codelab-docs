@@ -10,7 +10,7 @@ This the master list of all the keyboard shortcuts in CodeLab.
 
 ++ctrl+c++ --- Copy Selection
 
-++ctrl+d++ --- Show/Hide Debug Output
+++ctrl+d++ --- Duplicate Line(s)
 
 ++ctrl+e++ --- Show/Hide Errors List
 
@@ -26,9 +26,9 @@ This the master list of all the keyboard shortcuts in CodeLab.
 
 ++ctrl+k++ --- Comment Selection
 
-++ctrl+l++ --- Toggle Large Font
+++ctrl+l++ ---
 
-++ctrl+m++ --- Show/Hide Indicator Map
+++ctrl+m++ ---
 
 ++ctrl+n++ --- New code document
 
@@ -38,11 +38,11 @@ This the master list of all the keyboard shortcuts in CodeLab.
 
 ++ctrl+q++ --- Format Document
 
-++ctrl+r++ --- ReNumber UI Variables
+++ctrl+r++ ---
 
 ++ctrl+s++ --- Save code document
 
-++ctrl+t++ --- Show/Hide Toolbar
+++ctrl+t++ ---
 
 ++ctrl+u++ --- Uncomment Selection
 
@@ -56,6 +56,8 @@ This the master list of all the keyboard shortcuts in CodeLab.
 
 ++ctrl+z++ --- Undo
 
+++ctrl+alt+o++ Show/Hide Debug Output
+
 ++tab++ --- Indent
 
 ++shift+tab++ --- Unindent
@@ -63,6 +65,8 @@ This the master list of all the keyboard shortcuts in CodeLab.
 ++ctrl+tab++ --- Switch to tab on the right
 
 ++ctrl+shift+tab++ --- Switch to tab on the left
+
+++f6++ --- Execute a Build
 
 ++f12++ --- Go to Definition
 
@@ -91,6 +95,8 @@ This the master list of all the keyboard shortcuts in CodeLab.
 ++alt+k++ --- Only show Keywords
 
 ++alt+t++ --- Only show Snippets
+
+++alt+i++ --- Only show Interfaces
 
 ## Misc
 

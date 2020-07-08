@@ -11,26 +11,27 @@ The Find & Replace panel allow you to search the code document, and highlight al
 To qualify as a match, every character of the string must have the same casing of search string.
 
 !!! Example
-    `casing` would not match `cAsInG`.
-
-    `CaSiNg` would match `CaSiNg`.
+    `myWord` would match `myWord`, but not `MyWord`.
 
 ### Whole Word
 
-TODO
+!!! Example
+    `Selection` would match `selection`, but not `GetSelection`.
 
 ### Regular Expressions
 
-TODO
+!!! Example
+    `Amount\d` would match `Amount1` and `Amount2`.
 
 ### Interpret Escape Characters
 
-TODO
+!!! Example
+    `\r\n` would allow your search to span to the next line.
 
 ## Replace
 
-TODO
+This is the string you wish to use as a replacement of your search query.
 
 ### Replace All
 
-TODO
+Pressing this button will replace all instances of your search query with your replacement string.

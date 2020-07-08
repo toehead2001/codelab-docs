@@ -43,4 +43,4 @@ When you are happy with your effect, press the OK button to finalize the effect 
 If you do not like your effect, press the Cancel button to close the CodeLab editor window WITHOUT applying any changes to your original image.
 
 !!! Warning
-    Canceling CodeLab will discard the contents of all tabs. Be sure to save any changes before hand.
+    Canceling CodeLab will discard the contents of all tabs. Be sure to save any changes beforehand.

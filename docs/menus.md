@@ -1,9 +1,5 @@
 # Menus
 
-![Menus](img/menus.png)
-
-TODO: Split into separate pages for each menu?
-
 ## File
 
 ![File Menu](img/fileMenu.png)
@@ -41,12 +37,6 @@ See this page for more details on creating DLL files for use with Paint.NET.
 Use this option before you start editing your Render function to design the user interface controls your effect will have.
 
 See this page for more details on using CodeLab's UI designer.
-
-### Renumber UI Variables (Ctrl + R)
-
-If UI variables are not sequential order, this option will automatically renumber them, and all instances in the document.
-
-See [example](https://forums.getpaint.net/topic/880-codelab-v41-for-advanced-users-released-october-22-2018/?do=findComment&comment=424755).
 
 ### Preview Effect (Ctrl + P)
 
@@ -122,91 +112,41 @@ Automatically indents code, and trims whitespace from line ends.
 
 ![View Menu](img/viewMenu.png)
 
-### Toolbar (Ctrl + T)
-
-This toggles the visibility of the toolbar.
-
 ### Errors List (Ctrl + E)
 
 This will toggle the visibility of the errors list.
 
-### Debug Output (Ctrl + D)
+### Debug Output (Ctrl + Alt + O)
 
 This toggles the visibility of the debug output.
 
 !!! Note
     Having the debug output visible will also put the compiler into Debug mode.
 
-### Line Numbers
-
-This toggles the Line Numbers margin in the editor.
-
-### Bookmarks
-
-This toggles the Bookmarks margin in the editor.
-
-### Code Folding
-
-This toggles the Code Folding margin in the editor.
-
-### Large Font (Ctrl + L)
-
-If you have trouble seeing the code in the code window because it is too small, large font mode will increase the size of the text in the code editor window to 125% of normal size.
-
-Select the option again to return the code to normal size.
-
-### Indicator Map (Ctrl + M)
-
-This toggles the Indicator Map in the editor.
-
-### Word Wrap
-
-This toggles Word Wrap in the editor.
-
-### Show Whitespace
-
-This toggles the visibility of the whitespace indicators in the editor.
-
-### Font
-
-These changes the Font used in the editor and the Debug Output.
-
-- Consolas
-- New Courier
-- [Envy Code R](https://damieng.com/envy-code-r)
-- [Hack](https://sourcefoundry.org/hack/)
-- Verdana
-
 ### Transparency
 
 By default, the CodeLab window is not transparent at all. If you would like to be able to see through the code window to observe the effect your script is having on the current selection, use this option to modify CodeLab's transparency level. You may select 50% (nearly transparent), 25%, 10% (barely transparent), and 0% (not transparent).
-
-### Theme
-
-There are three options for theme:
-
-- Auto
-- Light
-- Dark
-
-Auto is not an actual theme, but rather will automatically select Light or Dark based on your chosen [Color Scheme in paint.net](https://www.getpaint.net/doc/latest/SettingsDialog.html#2).
 
 ## Help
 
 ![Help Menu](img/helpMenu.png)
 
-### Help Topics (F1)
+### Help Topics... (F1)
 
-This command will open a web browser and take you to the CodeLab Help page.
-
-### Check for updates
-
-This command will open a web browser and take you to the CodeLab page.
+Opens the online CodeLab Help page.
 
 ### Changes on this version...
 
-Open an online changelog.
+Opens the online changelog.
+
+### Discuss Plugin Development...
+
+Open the online forum for Paint.NET plugin development.
+
+### CodeLab Settings...
+
+Opens the CodeLab [Settings](settings.md) dialog.
 
 ### About...
 
-This command shows the About box which includes the version number and copyright message for CodeLab.
+Shows the About box which includes the version number and copyright message for CodeLab.

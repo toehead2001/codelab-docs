@@ -81,3 +81,19 @@ Prepends the selected lines with `//` to transform it into comment. Useful when 
 ## Uncomment Selection (Ctrl + U)
 
 Removes any prepended `//` from the selected lines.
+
+___
+
+## Find (Ctrl + F)
+
+Opens the Find & Replace panel.
+
+## Replace (Ctrl + H)
+
+Opens the Find & Replace panel in expanded form.
+
+___
+
+## Settings
+
+Opens the CodeLab [Settings](settings.md) dialog.

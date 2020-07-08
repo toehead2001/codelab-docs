@@ -1,5 +1,7 @@
 # User Interface Designer
 
+![UI Designer](img/uiDesigner.png)
+
 When CodeLab starts, it loads a default script that contains a Render function and a UICode block that defines the type of interface your effect will have. The default UICode block looks like this:
 
 ```csharp
