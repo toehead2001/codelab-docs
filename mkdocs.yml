@@ -4,7 +4,7 @@ site_author: Jason Wendt
 repo_name: codelab-docs
 repo_url: https://github.com/toehead2001/codelab-docs/
 edit_uri: tree/master/docs
-copyright: CodeLab Docs v20200707
+copyright: CodeLab Docs
 theme:
     name: material
     icon:
@@ -24,3 +24,7 @@ markdown_extensions:
     - pymdownx.keys
     - toc:
         permalink: true
+plugins:
+    - search
+    - git-revision-date-localized:
+        type: date
