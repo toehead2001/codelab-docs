@@ -12,6 +12,7 @@ theme:
     favicon:
     font: false
     palette:
+        scheme: preference
         primary: blue
         accent: blue
 markdown_extensions:
